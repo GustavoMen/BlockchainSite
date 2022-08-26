@@ -5,7 +5,7 @@ export const FooterContainer = styled.footer`
   display: grid;
   grid-template-columns: 1fr 1fr 2fr;
   width: 100%;
-  height: 100%;
+  height: 500px;
   bottom: 0;
   align-content: center;
   position: relative;
