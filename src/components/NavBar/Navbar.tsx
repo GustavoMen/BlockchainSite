@@ -67,7 +67,9 @@ function Navbar() {
           </NavItem>
 
           <NavBtnContainer>
-            <NavBtn>Investir</NavBtn>
+            <a href="https://google.com/">
+              <NavBtn>Investir</NavBtn>
+            </a>
           </NavBtnContainer>
         </NavMenu>
       </NavbarContainer>
