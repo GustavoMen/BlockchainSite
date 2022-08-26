@@ -5,7 +5,6 @@ export const FooterContainer = styled.footer`
   display: grid;
   grid-template-columns: 1fr 1fr 2fr;
   width: 100%;
-  min-height: 300px;
   height: auto;
   bottom: 0;
   align-content: center;
@@ -27,6 +26,7 @@ export const DivOne = styled.div`
   width: 200px;
   margin-left: 30px;
   justify-content: start;
+  margin-bottom: 50px;
 
   @media screen and (max-width: 960px) {
     margin-top: 20px;
