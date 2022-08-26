@@ -5,12 +5,16 @@ export const FooterContainer = styled.footer`
   display: grid;
   grid-template-columns: 1fr 1fr 2fr;
   width: 100%;
-  max-height: 600px;
+  height: 300px;
   bottom: 0;
   align-content: center;
   justify-content: center;
   position: relative;
   padding-left: 40px;
+
+  @media screen and (min-width: 1200px) {
+    height: auto;
+  }
 
   @media screen and (max-width: 960px) {
     display: flex;
