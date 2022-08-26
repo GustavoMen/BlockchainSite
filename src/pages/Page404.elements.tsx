@@ -7,6 +7,7 @@ export const Container404 = styled.section`
   justify-items: center;
   background: #131212;
   max-width: 100vw;
+  flex: 1;
 
   @media (max-width: 960px) {
     display: flex;
@@ -30,6 +31,10 @@ export const Title = styled.h1`
   padding-bottom: 10px;
   color: #ff0000;
 
+  @media screen and (min-width: 2000px) {
+    font-size: 150px;
+  }
+
   @media screen and (max-width: 450px) {
     font-size: 52px;
   }
@@ -39,6 +44,10 @@ export const SubText = styled.p`
   color: #fff;
   font-size: 16px;
   margin-top: 10px;
+
+  @media screen and (min-width: 2000px) {
+    font-size: 28px;
+  }
 
   @media screen and (max-width: 450px) {
     font-size: 12px;
@@ -62,6 +71,10 @@ export const RedirectText = styled.p`
   font-weight: bold;
   font-size: 20px;
 
+  @media screen and (min-width: 2000px) {
+    font-size: 28px;
+  }
+
   @media screen and (max-width: 450px) {
     font-size: 16px;
     text-align: center;
@@ -74,6 +87,10 @@ export const TextOr = styled.span`
   color: #fff;
   font-weight: bold;
   font-size: 20px;
+
+  @media screen and (min-width: 2000px) {
+    font-size: 28px;
+  }
 
   @media screen and (max-width: 450px) {
     font-size: 16px;
@@ -93,16 +110,25 @@ export const BackButton = styled.button`
   cursor: pointer;
   border: none;
 
+  @media screen and (min-width: 2000px) {
+    width: 100%;
+  }
+
   @media screen and (max-width: 450px) {
     width: 80%;
     font-size: 16px;
   }
 `;
 
-export const DivImg = styled.div`
-  margin-bottom: 100px;
-`;
+export const DivImg = styled.div``;
 
 export const ImgError = styled.img`
-  width: 510px;
+  width: 600px;
+
+  @media screen and (min-width: 2000px) {
+    width: 800px;
+  }
+  @media screen and (max-width: 1066px) {
+    width: 400px;
+  }
 `;

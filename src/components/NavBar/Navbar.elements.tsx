@@ -11,7 +11,7 @@ export const Nav = styled.header`
   background: #151515;
   height: 80px;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   font-size: 1.2rem;
   position: sticky;
@@ -163,6 +163,11 @@ export const NavBtn = styled.button`
   background: #ff0000;
   border: none;
   cursor: pointer;
+
+  @media screen and (max-width: 1278px) {
+    margin-left: 40px;
+    max-width: 100vw;
+  }
 
   @media screen and (max-width: 960px) {
     height: 60px;

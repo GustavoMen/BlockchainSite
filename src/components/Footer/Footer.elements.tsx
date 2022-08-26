@@ -12,14 +12,10 @@ export const FooterContainer = styled.footer`
   position: relative;
   padding-left: 40px;
 
-  @media screen and (min-width: 1200px) {
-    height: auto;
-  }
-
   @media screen and (max-width: 960px) {
     display: flex;
     flex-direction: column;
-    height: 730px;
+    height: 770px;
     align-items: center;
     justify-items: center;
   }
@@ -131,11 +127,12 @@ export const SocialMedia = styled.div`
 `;
 
 export const DivThreeText = styled.span`
-  width: 540px;
+  max-width: 540px;
   color: #fff;
   font-size: 12px;
   text-align: center;
   justify-self: center;
+  padding-right: 30px;
 `;
 
 /// /////////////////
