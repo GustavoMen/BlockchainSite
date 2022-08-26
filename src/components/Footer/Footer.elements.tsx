@@ -9,6 +9,7 @@ export const FooterContainer = styled.footer`
   bottom: 0;
   align-content: center;
   position: relative;
+  padding-left: 40px;
 
   @media screen and (max-width: 960px) {
     display: flex;
@@ -23,9 +24,8 @@ export const DivOne = styled.div`
   display: flex;
   flex-direction: column;
   width: 200px;
-  align-items: center;
-  justify-items: center;
   margin-left: 30px;
+  justify-content: start;
 
   @media screen and (max-width: 960px) {
     margin-top: 20px;
@@ -40,7 +40,7 @@ export const ImgLogo = styled.img`
 export const TextDivOne = styled.p`
   font-size: 12px;
   color: #fff;
-  text-align: center;
+  text-align: start;
 `;
 
 /// /////
@@ -49,7 +49,7 @@ export const DivTwo = styled.div`
   display: flex;
   flex-direction: column;
   width: 200px;
-  padding-left: 60px;
+  padding-left: 20px;
 
   @media screen and (max-width: 960px) {
     margin-top: 50px;
@@ -162,7 +162,7 @@ export const ContainerDivFour = styled.div`
   display: flex;
   flex-direction: row;
   align-content: flex-start;
-  margin-top: 10px;
+  margin-top: 15px;
 `;
 
 export const DivFourIcon = styled.div`

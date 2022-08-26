@@ -16,6 +16,7 @@ export const Nav = styled.header`
   font-size: 1.2rem;
   position: sticky;
   top: 0;
+  padding-left: 70px;
 `;
 
 export const NavbarContainer = styled(Container)`
