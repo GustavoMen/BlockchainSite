@@ -103,5 +103,5 @@ export const DivImg = styled.div`
 `;
 
 export const ImgError = styled.img`
-  width: 550px;
+  width: 530px;
 `;

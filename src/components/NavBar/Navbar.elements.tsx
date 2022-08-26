@@ -76,7 +76,7 @@ export const NavMenu = styled.ul<IClickCloseMobile>`
 
 export const NavItem = styled.li`
   font-size: 16px;
-  margin-left: 15px;
+  margin-left: 10px;
   height: 80px;
   border-bottom: 2px solid transparent;
   font-weight: bold;

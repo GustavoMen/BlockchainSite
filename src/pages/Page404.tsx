@@ -27,6 +27,7 @@ function Page404() {
           <RedirectText>
             Vamos te redirecionar para página inicial em
           </RedirectText>
+          <CountDown />
         </ContainerRedirect>
         <TextOr>ou</TextOr>
         <BackButton>Voltar para a página inicial</BackButton>
