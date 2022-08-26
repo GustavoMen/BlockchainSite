@@ -16,7 +16,7 @@ export const Nav = styled.header`
   font-size: 1.2rem;
   position: sticky;
   top: 0;
-  padding-left: 70px;
+  padding-left: 30px;
 
   @media screen and (max-width: 960px) {
     padding-left: 0px;
