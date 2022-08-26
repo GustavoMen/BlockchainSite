@@ -5,8 +5,10 @@ const GlobalStyle = createGlobalStyle`
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: Epilogue;
+    font-family: sans-serif;
     max-width: 100vw;
+
+
 }
 `;
 
