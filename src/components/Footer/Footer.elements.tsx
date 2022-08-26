@@ -10,12 +10,12 @@ export const FooterContainer = styled.footer`
   align-content: center;
   justify-content: center;
   position: relative;
-  padding-left: 40px;
+  padding-left: 10px;
 
   @media screen and (max-width: 960px) {
     display: flex;
     flex-direction: column;
-    height: 770px;
+    height: 790px;
     align-items: center;
     justify-items: center;
   }
@@ -132,7 +132,6 @@ export const DivThreeText = styled.span`
   font-size: 12px;
   text-align: center;
   justify-self: center;
-  padding-right: 30px;
 `;
 
 /// /////////////////

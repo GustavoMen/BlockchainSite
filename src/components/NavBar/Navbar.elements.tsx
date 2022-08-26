@@ -11,18 +11,26 @@ export const Nav = styled.header`
   background: #151515;
   height: 80px;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   font-size: 1.2rem;
   position: sticky;
   top: 0;
   padding-left: 70px;
+
+  @media screen and (max-width: 960px) {
+    padding-left: 0px;
+  }
 `;
 
 export const NavbarContainer = styled(Container)`
   display: flex;
   height: 80px;
   ${Container}
+
+  @media screen and (max-width: 960px) {
+    justify-content: space-around;
+  }
 `;
 
 export const NavLogo = styled(Link)`
@@ -33,6 +41,10 @@ export const NavLogo = styled(Link)`
   font-size: 2rem;
   display: flex;
   align-items: center;
+
+  @media screen and (max-width: 960px) {
+    justify-content: space-between;
+  }
 `;
 
 export const NavIcon = styled.img`
@@ -76,9 +88,10 @@ export const NavMenu = styled.ul<IClickCloseMobile>`
 `;
 
 export const NavItem = styled.li`
+  margin-top: 40px;
   font-size: 16px;
   margin-left: 10px;
-  height: 80px;
+  height: 50px;
   border-bottom: 2px solid transparent;
   font-weight: bold;
   &:hover {
@@ -87,6 +100,7 @@ export const NavItem = styled.li`
   }
   @media screen and (max-width: 960px) {
     width: 100%;
+    margin-top: 10px;
     &:hover {
       border: none;
     }
@@ -99,10 +113,10 @@ export const NavLinks = styled(Link)`
   align-items: center;
   text-decoration: none;
   padding: 0.5rem 1rem;
-  height: 100%;
+  height: 10px;
   @media screen and (max-width: 960px) {
     text-align: center;
-    padding: 2rem;
+    padding: 0.2rem;
     width: 100%;
     display: table;
     &:hover {
@@ -122,7 +136,7 @@ export const NavItemBtn = styled.li`
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 120px;
+    height: 100px;
   }
 `;
 
@@ -143,8 +157,7 @@ export const NavBtnContainer = styled.div`
   flex-direction: column;
 
   @media screen and (max-width: 960px) {
-    position: inherit;
-    bottom: 80px;
+    bottom: 20px;
     left: 20%;
     right: 20%;
     justify-content: center;
