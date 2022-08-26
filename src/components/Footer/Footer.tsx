@@ -7,6 +7,7 @@ import {
   BsWhatsapp,
 } from "react-icons/bs";
 import { FaTelegramPlane, FaBuilding } from "react-icons/fa";
+import { HiOfficeBuilding } from "react-icons/hi";
 
 import Logo from "../../assets/logo.png";
 import LogoB from "../../assets/logoB.png";
@@ -30,6 +31,7 @@ import {
   ContainerDivFour,
   DivFourIcon,
   DivFourTitle,
+  DivFourAdress,
 } from "./Footer.elements";
 
 function Footer() {
@@ -52,14 +54,7 @@ function Footer() {
       <DivFour>
         <ContainerFourAll>
           <DivFourTitle>CONTATOS</DivFourTitle>
-          <ContainerDivFour>
-            <DivFourIcon>
-              <FaBuilding />
-            </DivFourIcon>
-            <DivFourText>
-              Rua João Polastri, Número 800 Bairro Cidade Jardim
-            </DivFourText>
-          </ContainerDivFour>
+
           <ContainerDivFour>
             <DivFourIcon>
               <BsTelephoneFill />
@@ -77,6 +72,15 @@ function Footer() {
               <AiOutlineMail />
             </DivFourIcon>
             <DivFourText>business@blockchainhall.net</DivFourText>
+          </ContainerDivFour>
+
+          <ContainerDivFour>
+            <DivFourIcon>
+              <HiOfficeBuilding />
+            </DivFourIcon>
+            <DivFourAdress>
+              Rua João Polastri, Número 800 Bairro Cidade Jardim
+            </DivFourAdress>
           </ContainerDivFour>
         </ContainerFourAll>
       </DivFour>

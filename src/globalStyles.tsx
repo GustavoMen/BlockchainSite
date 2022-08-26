@@ -5,7 +5,7 @@ const GlobalStyle = createGlobalStyle`
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
+    font-family: 'Exo 2', sans-serif;
     max-width: 100vw;
 
 

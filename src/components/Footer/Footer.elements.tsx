@@ -176,4 +176,10 @@ export const DivFourIcon = styled.div`
 export const DivFourText = styled.p`
   color: #fff;
   font-size: 12px;
+  margin-left: 5px;
+`;
+export const DivFourAdress = styled.p`
+  color: #fff;
+  font-size: 12px;
+  margin-left: 20px;
 `;
