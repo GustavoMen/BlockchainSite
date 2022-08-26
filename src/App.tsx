@@ -13,7 +13,7 @@ function App() {
       <GlobalStyle />
       <ScrollToTop />
       <Routes>
-        <Route path="/test" element={<Page404 />} />
+        <Route path="/" element={<Page404 />} />
       </Routes>
       <Footer />
     </Router>
