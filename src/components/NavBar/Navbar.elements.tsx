@@ -139,8 +139,6 @@ export const NavBtnLink = styled(Link)`
 `;
 
 export const NavBtnContainer = styled.div`
-  position: absolute;
-  right: 80px;
   display: flex;
   flex-direction: column;
 
@@ -154,6 +152,7 @@ export const NavBtnContainer = styled.div`
 `;
 
 export const NavBtn = styled.button`
+  margin-left: 200px;
   font-size: 22px;
   color: #fff;
   font-weight: bold;
