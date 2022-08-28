@@ -19,12 +19,6 @@ import {
   DivTwo,
   DivTwoTitle,
   DivTwoLink,
-  DivThree,
-  DivThreeLogo,
-  ContainerSocialMedia,
-  LinkSocialMedia,
-  SocialMedia,
-  DivThreeText,
   DivFour,
   ContainerFourAll,
   DivFourText,
@@ -32,9 +26,15 @@ import {
   DivFourIcon,
   DivFourTitle,
   DivFourAdress,
-} from "./Footer.elements";
+  DivThree,
+  DivThreeLogo,
+  ContainerSocialMedia,
+  LinkSocialMedia,
+  SocialMedia,
+  DivThreeText,
+} from "./Footer2.elements";
 
-function Footer() {
+function Footer2() {
   return (
     <FooterContainer>
       <DivOne>
@@ -45,6 +45,7 @@ function Footer() {
           a tão desejada liberdade financeira. Invista em um futuro melhor!
         </TextDivOne>
       </DivOne>
+
       <DivTwo>
         <DivTwoTitle>QUEM SOMOS</DivTwoTitle>
         <DivTwoLink>Quem somos</DivTwoLink>
@@ -84,6 +85,7 @@ function Footer() {
           </ContainerDivFour>
         </ContainerFourAll>
       </DivFour>
+
       <DivThree>
         <DivThreeLogo src={LogoB} alt="Logo" />
         <ContainerSocialMedia>
@@ -113,4 +115,4 @@ function Footer() {
   );
 }
 
-export default Footer;
+export default Footer2;
