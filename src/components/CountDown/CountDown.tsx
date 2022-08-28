@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 import { CountDownP } from "./CountDown.elements";
 
@@ -6,10 +6,19 @@ function CountDown() {
   const [counter, setCounter] = React.useState(5);
 
   // First Attempts
-  const timer = setInterval(() => setCounter(counter - 1), 1000);
-  if (counter === 0) {
-    clearInterval(timer);
-  }
+
+  useEffect(() => {
+    if (counter !== 0) {
+      const timer = setInterval(
+        () => setCounter((oldValue) => oldValue - 1),
+        1000
+      );
+      return () => clearInterval(timer);
+    }
+    return function () {
+      return null;
+    };
+  }, [counter]);
 
   return (
     <div className="App">
