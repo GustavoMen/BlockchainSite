@@ -60,28 +60,26 @@ function Footer2() {
             <DivFourIcon>
               <BsTelephoneFill />
             </DivFourIcon>
-            <DivFourText>(19) 98444-7313</DivFourText>
+            <DivFourText>(11) 9999-9999</DivFourText>
           </ContainerDivFour>
           <ContainerDivFour>
             <DivFourIcon>
               <BsWhatsapp />
             </DivFourIcon>
-            <DivFourText>(11) 5198-2941 (WhatsApp)</DivFourText>
+            <DivFourText>(11) 9999-9999 (WhatsApp)</DivFourText>
           </ContainerDivFour>
           <ContainerDivFour>
             <DivFourIcon>
               <AiOutlineMail />
             </DivFourIcon>
-            <DivFourText>business@blockchainhall.net</DivFourText>
+            <DivFourText>business@gmail.com</DivFourText>
           </ContainerDivFour>
 
           <ContainerDivFour>
             <DivFourIcon>
               <HiOfficeBuilding />
             </DivFourIcon>
-            <DivFourAdress>
-              Rua João Polastri, Número 800 Bairro Cidade Jardim
-            </DivFourAdress>
+            <DivFourAdress>Rua Pedro João, Número 800 São Paulo</DivFourAdress>
           </ContainerDivFour>
         </ContainerFourAll>
       </DivFour>
